@@ -1,0 +1,60 @@
+.container{max-width: 80%;width:80%;margin:0 auto;}
+.clearFloat:after{clear:both;content:'';display: block;width:0;height:0;visibility: hidden;}
+.clearA a{text-decoration: none;color:#ffffff;}
+
+.header{width:100%;background-color:#353434;height: 80px;}
+.carfty-logo{float:left;width:71px;height:35px;padding-right:40px;margin-top:20px;border-right:1px solid #404040;}
+.carfty-nav{float:left;margin-left:40px;margin-top:20px;}
+.carfty-nav .top-list li{padding-top:10px;margin-right:35px;display: inline-block;}
+.carfty-links{float:right;margin-top:20px;}
+.carfty-links .top-links li{display: inline-block;margin-left:10px;border:2px solid #fff;padding:8px 12px;}
+.carfty-links .top-links li a#link-facebook:before{font-family: FontAwesome;content:'\f09a';}
+.carfty-links .top-links li a#link-twitter:before{font-family: FontAwesome;content:'\f099';}
+.carfty-links .top-links li a#link-google:before{font-family: FontAwesome;content:'\f0d5';}
+
+.slider{width:100%;height:580px;}
+.slider .slider-list .item{height:580px;width:100%;}
+.slider .slider-list .item img{width: inherit;height: inherit;}
+.slider-left-btn,
+.slider-right-btn{position: relative;top:-290px;width:50px;padding:10px 0px;background-color:#eaeaea;color:#353434;vertical-align: center;text-align: center;opacity: 0.8;}
+.slider-left-btn{float:left;margin-left:10%;cursor: pointer;}
+.slider-right-btn{float:right;margin-right:10%;cursor: pointer;}
+.slider-left-btn:before{font-size:24px;font-family: FontAwesome;content:'\f104';}
+.slider-right-btn:before{font-size:24px;font-family: FontAwesome;content:'\f105';}
+.slider-text{width:30%;max-width: 30%;position: relative;top:-350px;margin-left:40%;}
+.slider-title,
+.slider-description{color:#353434;background-color:#eaeaea;opacity: 0.8;padding:15px;margin-top:10px;font-size:28px;display: inline-block;}
+
+.features{width:100%;margin:0;padding:0;overflow: hidden;}
+.features-list{display: block;}
+.features-list .feature-item{display: inline-block;margin:0;padding:0;width:33%;margin-top: 100px;}
+.feature-item .feature-icon{display: inline-block;width:20%;margin-right:15px;vertical-align: top;}
+.feature-item .feature-body{display: inline-block;width:70%;}
+.feature-body .feature-body-title{font-size:20px;color:#767676;padding-bottom: 25px;}
+.feature-body .feature-body-description{font-size:16px;color:#9e9e9e;padding-bottom: 25px;}
+.feature-body .feature-body-more{font-size:14px;color:#848484;}
+
+.testimonials-line{display: block;width:2px;background-color:#dedede;height:100px;margin:100px auto 20px auto;}
+.testimonials-title{display: block;font-size:24px;color:#4f4f4f;padding:40px 0;text-align: center;}
+.testimonials-content{display: block;font-size:16px;color:#8f8e8e;text-indent: 1em;width:inherit;margin:40px auto;}
+.testimonials-author{display: block;font-size:18px;color:#696767;padding:5px;text-align: center;}
+.testimonials-nav{display: block;margin-top: 40px;text-align: center;}
+.testimonials-nav>li{display: inline-block;width:12px;height: 12px;border-radius: 50%;margin-right:10px;background-color:#dadada;cursor:pointer;}
+.testimonials-nav>li.testimonials-nav-on{background-color:#bebebe;}
+
+.about{margin-top:140px;}
+.picking{display: inline-block;width:50%;max-width: 50%;border:none;}
+.picking>img{width: 100%;}
+.summary{display: inline-block;width:50%;max-width: 50%;background-color:#3b3b3b;vertical-align: top;}
+.summary .summary-title{display: block;font-size:26px;width:80%;margin-top:80px;margin-left:40px;color:#ffffff;}
+.summary .summary-content{display: block;font-size:18px;color:#e5e5e5;text-indent: 1em;width:80%;margin-top:55px;margin-left:40px;}
+.summary .summary-more{display: block;font-size:18px;color:#f5f5f5;width:80%;margin-top:40px;margin-left:40px;margin-bottom: 48px;}
+
+.callMe{margin-top:100px;}
+.call-action{display: block;font-size:26px;color:#6b6b6b;font-weight: bold;text-align: center;}
+.call-description{display: block;font-size:14px;margin-top:10px;color:#b0afaf;text-align: center;}
+#sign-up-btn{display: block;background-color:#65bf95;color:#e6f3ec;padding:20px 40px;font-size:22px;border:none;margin:0 auto;margin-top:60px;cursor: pointer;}
+
+.footer{margin-top:100px;border-top:2px solid #dedede;background-color:#f7f7f7;height:276px;}
+#footer-logo{display: block;position: relative;margin-top:100px;margin-left: 50%;left:-17.5px;}
+.copyRight{margin-top:30px;text-align: center;font-size:14px;color:#3b3b3b;}
